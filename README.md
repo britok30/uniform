@@ -1,4 +1,4 @@
-![](src/assets/images/demo.png)
+
 
 # Take Home Assignment
 
