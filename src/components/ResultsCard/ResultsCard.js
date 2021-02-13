@@ -1,7 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import maleAvatar from '../../assets/images/male.svg';
-import searchAvatar from '../../assets/images/search.svg';
 import { useToasts } from 'react-toast-notifications';
 import PropTypes from 'prop-types';
 import './ResultsCard.scss';
