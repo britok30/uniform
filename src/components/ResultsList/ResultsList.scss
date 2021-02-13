@@ -1,0 +1,13 @@
+.results {
+    &__container {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    &__total {
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,21 @@
+.footer {
+    &__content {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__text {
+        margin: 0;
+        font-size: 12px;
+        color: #fff;
+        font-weight: 300;
+    }
+
+    &__link {
+        color: #fff;
+        text-decoration: none;
+    }
+}

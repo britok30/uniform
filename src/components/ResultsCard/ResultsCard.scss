@@ -1,0 +1,46 @@
+$cardColor: #243447;
+
+.resultscard {
+    &__container {
+        cursor: pointer;
+        border: 1px solid;
+        background: $cardColor;
+        padding: 10px;
+        max-width: 400px;
+        height: 70px;
+        border-radius: 4px;
+        border: 1px solid #fff;
+        margin: 10px 0;
+    }
+
+    &__inner-container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__avatar {
+        width: 70px;
+        margin-right: 20px;
+    }
+
+    &__name,
+    &__email {
+        color: #fff;
+        margin: 0;
+    }
+
+    &__name {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    &__email {
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
