@@ -3,8 +3,8 @@
 Thank you so much for the opportunity to make this. I had a alot of fun and hope you enjoy!
 
 # Steps: 
-Run Docker
-Clone this into your local, install dependencies and 'run npm start' to load project.
+* Run Docker
+* Clone this into your local, install dependencies and 'run npm start' to load project.
 
 This project uses:
 1. axios for data fetching
