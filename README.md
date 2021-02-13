@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Take Home Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Thank you so much for the opportunity to make this. I had a alot of fun and hope you enjoy!
 
-## Available Scripts
+# Steps: 
+* Run Docker
+* Clone this into your local, install dependencies and 'run npm start' to load project.
 
-In the project directory, you can run:
+This project uses:
+1. axios for data fetching
+2. React-Toast-Notifications to handle notifications upon card clicked
+3. React-Window to handle large list data set
+4. Sass for styling and structure
 
-### `npm start`
+There were no third party frameworks for styling purposes. Design was created with pure CSS, using Sass to assist me in structuring my code better and for its added benefits.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Things to look out for:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This projects handles the following:
+* Users can search for names or email and the result will automatically load up as you type. Names is most important if youre typing names. Emails appear if youre typing for emails. Your specific search should match whatever you typed. Even if you type certain portions of an email (lets say the email domain), it will appear.
+* Users can click on a person card. Once clicked, users should see a notification slide in saying "{person name} was selected!". You can click as many users as you'd like. 
+* The users can scroll through the list of data avaiable. Scrolling area is where the cards fade in.
+* React-window does a fantastic job in being able to render out this list in an efficient manner without putting too much stress on the DOM. I wanted this app to be as performant as possible, considering that huge chunks of data can cause slow-downs (experienced them early developing this project) 
+* Code organization. I made sure that every component is structured in a way thats easy to find. Left comments to explain certain aspects when necessary,
+* Design. This was created on the fly but i wanted to make sure that designs look modern, nice, and hopefully you guys love it too.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Once again, thank you for this opportunity!
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
