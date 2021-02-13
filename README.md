@@ -1,3 +1,5 @@
+![](src/assets/images/demo.png)
+
 # Take Home Assignment
 
 Thank you so much for the opportunity to make this. I had a alot of fun and hope you enjoy!
